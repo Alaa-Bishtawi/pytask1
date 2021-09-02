@@ -1,1 +1,41 @@
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root: Get Request  /show_urls_ASC at  2021-09-02 11:42:36.530135 And returned All Urls Asending
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:36] "GET /show_urls_ASC HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root: Get Request  /full_url at  2021-09-02 11:42:42.353206 And returned full url url is : https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:42] "GET /full_url?url=http://127.0.0.1:5000/616564RTLkKX HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root: POST Request  /short_url at  2021-09-02 11:42:44.388303 And returned short url is : http://127.0.0.1:5000/616564SHnIBs
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 11:42:44] "POST /short_url HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskProject1\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

@@ -11,18 +11,22 @@ class Link():
     server_url = "http://127.0.0.1:5000/"
 
     def __init__(self):
-        self.myCon = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            # password="dpass",
-            database="test")
+        try:
+            self.myCon = mysql.connector.connect(
+                host="localhost",
+                user="root",
+                # password="dpass",
+                database="test")
+
+        except mysql.connector.Error as err:
+            print("Something went wrong: {}".format(err))
 
     def checkDuplicateShorten(self, short_url):
         state = False
         try:
             mycursor = self.myCon.cursor()
 
-            mycursor.execute(f"SELECT * FROM tbstudent  WHERE short_url ='{short_url}'")
+            mycursor.execute(f"SELECT * FROM urls  WHERE short_url ='{short_url}'")
 
             mycursor.fetchall()
             if mycursor.rowcount == 0:
@@ -70,7 +74,7 @@ class Link():
             tdate = today.strftime("%Y/%d/%m")
             # date_time=datetime.datetime.now()
             print(tdate)
-            sql_insert_query = f"insert into tbStudent (original_url, short_url, RegDate) values ('{original_url}','{short_url}','{tdate}')";
+            sql_insert_query = f"insert into urls (original_url, short_url, RegDate) values ('{original_url}','{short_url}','{tdate}')";
 
             mycursor.execute(sql_insert_query)
             self.myCon.commit();
@@ -78,7 +82,7 @@ class Link():
             state = True
         except mysql.connector.Error as error:
             state = False
-            # print("Failed to insert query into tbStudent table {}".format(error))
+            # print("Failed to insert query into urls table {}".format(error))
         finally:
             mycursor.close()
             if state == True:
@@ -89,7 +93,7 @@ class Link():
     def CheckExsistUrl(self, short_url):
         mycursor = self.myCon.cursor()
 
-        mycursor.execute(f"SELECT original_url, short_url FROM tbstudent  WHERE short_url ='{short_url}'")
+        mycursor.execute(f"SELECT original_url, short_url FROM urls  WHERE short_url ='{short_url}'")
 
         myRecordset = mycursor.fetchall()
         if mycursor.rowcount == 0:
@@ -123,7 +127,7 @@ class Link():
             get all api urls
             """
         mycursor = self.myCon.cursor()
-        mycursor.execute("SELECT original_url, short_url, RegDate FROM tbstudent ORDER BY RegDate DESC ")  # ASC or DESC
+        mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ORDER BY RegDate DESC ")  # ASC or DESC
         myRecordset = mycursor.fetchall()
         mycursor.close()
         return str(myRecordset)
@@ -133,7 +137,7 @@ class Link():
             get all api urls
             """
         mycursor = self.myCon.cursor()
-        mycursor.execute("SELECT original_url, short_url, RegDate FROM tbstudent ")
+        mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
         myRecordset = mycursor.fetchall()
         mycursor.close()
         return str(myRecordset)
@@ -144,7 +148,7 @@ class Link():
             """
         mycursor = self.myCon.cursor()
 
-        mycursor.execute("SELECT original_url, short_url, RegDate FROM tbstudent ")
+        mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
 
         myRecordset = mycursor.fetchall()
         json_data = []
@@ -159,7 +163,7 @@ class Link():
     # def GetRowsNumber(self):
     #     mycursor = self.myCon.cursor()
     #
-    #     mycursor.execute("SELECT Count(*) FROM tbstudent ")
+    #     mycursor.execute("SELECT Count(*) FROM urls ")
     #
     #     myRecordset = mycursor.fetchall()
     #     mycursor.close()
