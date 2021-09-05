@@ -1,9 +1,10 @@
 import mysql.connector
+import constants
 myCon = mysql.connector.connect(
-    host="localhost",
-    user="root",
+    host=constants.DbHost,
+    user=constants.DbUser,
     # password="dpass",
-    database="test")
+    database=constants.DbName)
 mycur = myCon.cursor()
 with open('schema.sql') as f:
     mycur.execute(f.read())
