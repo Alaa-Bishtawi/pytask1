@@ -7,31 +7,49 @@ from flask import Flask
 
 logging.basicConfig(filename='server.log', encoding='utf-8', level=logging.DEBUG)
 app = Flask(__name__)
+def my_decorator(func):
+    print("inside decorater")
+    def wrapperInner(*args, **kwargs):
+        print("I like", kwargs['like'])
+        logging.info(' Function ' + func.__name__ +' Called at ' + str(datetime.datetime.now()) +'')
 
+        print(func.__name__)
+       # print("Something is happening before the function is called.")
+        result = func()
 
-@app.route('/show_urls', methods=['GET'])
+        print("Something is happening after the function is called.")
+        return result
+
+    return wrapperInner
+
+@app.route('/show_urls', methods=['GET'],endpoint='showUrls')
+@my_decorator(like = "geeksforgeeks")
 def showUrls():
+     link = Link()
+     logging.info(' Get Request  /show_urls at  ' + str(datetime.datetime.now()) + ' And returned All Urls ' )
+     return link.showUrls()
+
+
+@app.route('/show_urls_order', methods=['GET'],endpoint='showUrlsOrderd')
+@my_decorator
+def showUrlsOrderd():
+    orderType = request.args.get("orderType")
     link = Link()
-    logging.info(' Get Request  /show_urls at  ' + str(datetime.datetime.now()) + ' And returned All Urls ' )
-    return link.showUrls()
+    logging.info(' Get Request  /show_urls_order at  ' + str(datetime.datetime.now()) + ' And returned All Urls orderd' )
+
+    return link.showUrlsOrderd(orderType)
 
 
-@app.route('/show_urls_ASC', methods=['GET'])
-def showUrlsAsc():
-    link = Link()
-    logging.info(' Get Request  /show_urls_ASC at  ' + str(datetime.datetime.now()) + ' And returned All Urls Asending' )
-
-    return link.showUrlsAsc()
-
-
-@app.route('/show_urls_Json', methods=['GET'])
+@app.route('/show_urls_Json', methods=['GET'],endpoint='showUrlsJson')
+@my_decorator
 def showUrlsJson():
     link = Link()
     logging.info(' Get Request  /show_urls_Json at  ' + str(datetime.datetime.now()) + ' And returned All Urls As Jsoon' )
     return link.showUrlsJson()
 
 
-@app.route('/full_url', methods=['GET'])
+@app.route('/full_url', methods=['GET'],endpoint='check_full_url')
+@my_decorator
 def check_full_url():
     short_url = request.args.get("url")
     short_url = short_url.split("/")[-1:][0]
@@ -45,7 +63,8 @@ def check_full_url():
 ########################
 
 
-@app.route('/short_url', methods=['POST'])
+@app.route('/short_url', methods=['POST'],endpoint='short_url')
+@my_decorator
 def short_url():
     original_url = request.form.get('original_url')
 
@@ -78,6 +97,7 @@ def get_hello_world():
     return 'Get Hello World!'
 
 
-if __name__ == '__main__':
 
+
+if __name__ == '__main__':
     app.run()

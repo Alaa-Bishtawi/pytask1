@@ -5,18 +5,18 @@ import re
 import string
 from datetime import date
 import mysql.connector
-
+import constants
 
 class Link():
-    server_url = "http://127.0.0.1:5000/"
+    server_url = constants.server_url
 
     def __init__(self):
         try:
             self.myCon = mysql.connector.connect(
-                host="localhost",
-                user="root",
+                host=constants.DbHost,
+                user=constants.DbUser,
                 # password="dpass",
-                database="test")
+                database=constants.DbName )
 
         except mysql.connector.Error as err:
             print("Something went wrong: {}".format(err))
@@ -55,8 +55,8 @@ class Link():
 
         # If the string is empty
         # return false
-        if (str == None):
-            return False
+        # if (str == None):
+        #     return False
 
         # Return if the string
         # matched the ReGex
@@ -114,33 +114,40 @@ class Link():
 
         random_value = ''.join(random.choice(letters) for i in range(6))
         temp = short_url + random_value
-        duplicated = self.checkDuplicateShorten(temp)
-        while duplicated != True:
+        duplicated = self.checkDuplicateShorten(temp) # if duplicated -- return false
+        while duplicated == False:
             random_value = ''.join(random.choice(letters) for i in range(6))
             temp = short_url + random_value
             duplicated = self.checkDuplicateShorten(temp)
 
         return self.AddShortenedUrl(original_url, temp)
 
-    def showUrlsAsc(self):
+    def showUrlsOrderd(self,orderType):
         """
             get all api urls
             """
+        #Var
         mycursor = self.myCon.cursor()
-        mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ORDER BY RegDate DESC ")  # ASC or DESC
+        mycursor.execute(f"SELECT original_url, short_url, RegDate FROM urls ORDER BY RegDate {{orderType}} ")  # ASC or DESC
         myRecordset = mycursor.fetchall()
         mycursor.close()
         return str(myRecordset)
+
 
     def showUrls(self):
         """
             get all api urls
             """
-        mycursor = self.myCon.cursor()
-        mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
-        myRecordset = mycursor.fetchall()
-        mycursor.close()
-        return str(myRecordset)
+        try:
+            mycursor = self.myCon.cursor()
+            mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
+            myRecordset = mycursor.fetchall()
+            mycursor.close()
+            return str(myRecordset)
+
+        except mysql.connector.Error as err:
+
+            print("Something went wrong: {}".format(err))
 
     def showUrlsJson(self):
         """
@@ -158,6 +165,22 @@ class Link():
 
         mycursor.close()
         return json.dumps(json_data)
+
+    def my_decorator(self,func):
+
+        def wrapper():
+            print(" My function name ")
+           # print("Something is happening before the function is called.")
+            result = func()
+            print("Something is happening after the function is called.")
+            return result
+
+        return wrapper
+
+
+    def say_whee(self):
+        print('inside say wee')
+        return "wee return "
 
     #
     # def GetRowsNumber(self):
