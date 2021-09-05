@@ -22,6 +22,9 @@ class Link():
             print("Something went wrong: {}".format(err))
 
     def checkDuplicateShorten(self, short_url):
+        """
+                    Check database if shorten url exists before
+                    """
         state = False
         try:
             mycursor = self.myCon.cursor()
@@ -43,46 +46,41 @@ class Link():
             return state
 
     def isValidURL(self, str):
-        # Regex to check valid URL
+        """
+                    check given url if valid
+                    """
         regex = ("((http|https)://)(www.)?" +
                  "[a-zA-Z0-9@:%._\\+~#?&//=]" +
                  "{2,256}\\.[a-z]" +
                  "{2,6}\\b([-a-zA-Z0-9@:%" +
                  "._\\+~#?&//=]*)")
-
-        # Compile the ReGex
         p = re.compile(regex)
-
-        # If the string is empty
-        # return false
-        # if (str == None):
-        #     return False
-
-        # Return if the string
-        # matched the ReGex
         if (re.search(p, str)):
             return True
         else:
             return False
 
     def AddShortenedUrl(self, original_url, short_url):
+        """
+                    add record to database
+                    """
         state = False
         try:
             mycursor = self.myCon.cursor()
 
             today = date.today()
             tdate = today.strftime("%Y/%d/%m")
-            # date_time=datetime.datetime.now()
+
             print(tdate)
             sql_insert_query = f"insert into urls (original_url, short_url, RegDate) values ('{original_url}','{short_url}','{tdate}')";
 
             mycursor.execute(sql_insert_query)
             self.myCon.commit();
-            # print("New URL Added")
+
             state = True
         except mysql.connector.Error as error:
             state = False
-            # print("Failed to insert query into urls table {}".format(error))
+
         finally:
             mycursor.close()
             if state == True:
@@ -124,7 +122,7 @@ class Link():
 
     def showUrlsOrderd(self,orderType):
         """
-            get all api urls
+            get all api urls orderd
             """
         #Var
         mycursor = self.myCon.cursor()
@@ -136,7 +134,7 @@ class Link():
 
     def showUrls(self):
         """
-            get all api urls
+            get all api urls as string without any ordering
             """
         try:
             mycursor = self.myCon.cursor()
@@ -151,7 +149,7 @@ class Link():
 
     def showUrlsJson(self):
         """
-            get all api urls
+            get all api urls as json file
             """
         mycursor = self.myCon.cursor()
 
@@ -178,9 +176,7 @@ class Link():
         return wrapper
 
 
-    def say_whee(self):
-        print('inside say wee')
-        return "wee return "
+
 
     #
     # def GetRowsNumber(self):
