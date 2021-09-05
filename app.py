@@ -9,8 +9,8 @@ logging.basicConfig(filename='server.log', encoding='utf-8', level=logging.DEBUG
 app = Flask(__name__)
 def my_decorator(func):
     print("inside decorater")
-    def wrapperInner(*args, **kwargs):
-        print("I like", kwargs['like'])
+    def wrapperInner():
+
         logging.info(' Function ' + func.__name__ +' Called at ' + str(datetime.datetime.now()) +'')
 
         print(func.__name__)
@@ -23,7 +23,7 @@ def my_decorator(func):
     return wrapperInner
 
 @app.route('/show_urls', methods=['GET'],endpoint='showUrls')
-@my_decorator(like = "geeksforgeeks")
+@my_decorator
 def showUrls():
      link = Link()
      logging.info(' Get Request  /show_urls at  ' + str(datetime.datetime.now()) + ' And returned All Urls ' )
