@@ -1,7 +1,8 @@
 import unittest
 from models import Link
 
-import  string
+import string
+
 
 class TestLInk(unittest.TestCase):
     def test_boolean(self):
@@ -11,8 +12,6 @@ class TestLInk(unittest.TestCase):
         a = True
 
         self.assertEqual(a, b)
-
-
 
     def test_string(self):
         OrginalUrl = "https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given"

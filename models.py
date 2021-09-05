@@ -7,6 +7,7 @@ from datetime import date
 import mysql.connector
 import constants
 
+
 class Link():
     server_url = constants.server_url
 
@@ -16,7 +17,7 @@ class Link():
                 host=constants.DbHost,
                 user=constants.DbUser,
                 # password="dpass",
-                database=constants.DbName )
+                database=constants.DbName)
 
         except mysql.connector.Error as err:
             print("Something went wrong: {}".format(err))
@@ -29,7 +30,8 @@ class Link():
         try:
             mycursor = self.myCon.cursor()
 
-            mycursor.execute(f"SELECT * FROM urls  WHERE short_url ='{short_url}'")
+            mycursor.execute(
+                f"SELECT * FROM urls  WHERE short_url ='{short_url}'")
 
             mycursor.fetchall()
             if mycursor.rowcount == 0:
@@ -72,10 +74,10 @@ class Link():
             tdate = today.strftime("%Y/%d/%m")
 
             print(tdate)
-            sql_insert_query = f"insert into urls (original_url, short_url, RegDate) values ('{original_url}','{short_url}','{tdate}')";
+            sql_insert_query = f"insert into urls (original_url, short_url, RegDate) values ('{original_url}','{short_url}','{tdate}')"
 
             mycursor.execute(sql_insert_query)
-            self.myCon.commit();
+            self.myCon.commit()
 
             state = True
         except mysql.connector.Error as error:
@@ -91,7 +93,8 @@ class Link():
     def CheckExsistUrl(self, short_url):
         mycursor = self.myCon.cursor()
 
-        mycursor.execute(f"SELECT original_url, short_url FROM urls  WHERE short_url ='{short_url}'")
+        mycursor.execute(
+            f"SELECT original_url, short_url FROM urls  WHERE short_url ='{short_url}'")
 
         myRecordset = mycursor.fetchall()
         if mycursor.rowcount == 0:
@@ -108,11 +111,13 @@ class Link():
         if vaild != True:
             return "The Url Not Valid"
         letters = string.ascii_letters
-        short_url = str(int(hashlib.sha1(original_url.encode("utf-8")).hexdigest(), 16) % (10 ** 6))
+        short_url = str(
+            int(hashlib.sha1(original_url.encode("utf-8")).hexdigest(), 16) % (10 ** 6))
 
         random_value = ''.join(random.choice(letters) for i in range(6))
         temp = short_url + random_value
-        duplicated = self.checkDuplicateShorten(temp) # if duplicated -- return false
+        duplicated = self.checkDuplicateShorten(
+            temp)  # if duplicated -- return false
         while duplicated == False:
             random_value = ''.join(random.choice(letters) for i in range(6))
             temp = short_url + random_value
@@ -120,17 +125,17 @@ class Link():
 
         return self.AddShortenedUrl(original_url, temp)
 
-    def showUrlsOrderd(self,orderType):
+    def showUrlsOrderd(self, orderType):
         """
             get all api urls orderd
             """
-        #Var
+        # Var
         mycursor = self.myCon.cursor()
-        mycursor.execute(f"SELECT original_url, short_url, RegDate FROM urls ORDER BY RegDate {{orderType}} ")  # ASC or DESC
+        mycursor.execute(
+            f"SELECT original_url, short_url, RegDate FROM urls ORDER BY RegDate {{orderType}} ")  # ASC or DESC
         myRecordset = mycursor.fetchall()
         mycursor.close()
         return str(myRecordset)
-
 
     def showUrls(self):
         """
@@ -138,7 +143,8 @@ class Link():
             """
         try:
             mycursor = self.myCon.cursor()
-            mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
+            mycursor.execute(
+                "SELECT original_url, short_url, RegDate FROM urls ")
             myRecordset = mycursor.fetchall()
             mycursor.close()
             return str(myRecordset)
@@ -157,14 +163,15 @@ class Link():
 
         myRecordset = mycursor.fetchall()
         json_data = []
-        row_headers = [x[0] for x in mycursor.description]  # this will extract row headers
+        # this will extract row headers
+        row_headers = [x[0] for x in mycursor.description]
         for r in myRecordset:
             json_data.append(dict(zip(row_headers, r)))
 
         mycursor.close()
         return json.dumps(json_data)
 
-    def my_decorator(self,func):
+    def my_decorator(self, func):
 
         def wrapper():
             print(" My function name ")
@@ -174,9 +181,6 @@ class Link():
             return result
 
         return wrapper
-
-
-
 
     #
     # def GetRowsNumber(self):
