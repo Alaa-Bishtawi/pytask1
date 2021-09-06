@@ -1,5 +1,6 @@
-DbHost = "localhost"
-DbUser = "root"
+DB_HOST = "localhost"
+DB_USER = "root"
 DbPassword = "dpass"
-DbName = "test"
-server_url = "http://127.0.0.1:5000/"
+DB_NAME = "test"
+SERVER_URL = "http://127.0.0.1:5000/"
+

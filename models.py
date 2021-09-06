@@ -6,26 +6,27 @@ import string
 from datetime import date
 import mysql.connector
 import constants
-
-
+import logging
+logging.basicConfig(filename='server.log',
+                    encoding='utf-8', level=logging.DEBUG)
 class Link():
-    server_url = constants.server_url
+    server_url = constants.SERVER_URL
 
     def __init__(self):
         try:
+            
             self.myCon = mysql.connector.connect(
-                host=constants.DbHost,
-                user=constants.DbUser,
+                host=constants.DB_HOST,
+                user=constants.DB_USER,
                 # password="dpass",
-                database=constants.DbName)
+                database=constants.DB_NAME)
 
         except mysql.connector.Error as err:
-            print("Something went wrong: {}".format(err))
+            logging.error("Something went wrong: {}".format(err))
+            
 
     def checkDuplicateShorten(self, short_url):
-        """
-                    Check database if shorten url exists before
-                    """
+        """   Check database if shorten url exists before  """
         state = False
         try:
             mycursor = self.myCon.cursor()
@@ -48,9 +49,7 @@ class Link():
             return state
 
     def isValidURL(self, str):
-        """
-                    check given url if valid
-                    """
+        """  check given url if valid """
         regex = ("((http|https)://)(www.)?" +
                  "[a-zA-Z0-9@:%._\\+~#?&//=]" +
                  "{2,256}\\.[a-z]" +
@@ -63,9 +62,9 @@ class Link():
             return False
 
     def AddShortenedUrl(self, original_url, short_url):
-        """
-                    add record to database
-                    """
+        """ add record to database  """
+                   
+                    
         state = False
         try:
             mycursor = self.myCon.cursor()
@@ -80,6 +79,7 @@ class Link():
             self.myCon.commit()
 
             state = True
+            logging.info('Here is inserted quey ' +sql_insert_query)
         except mysql.connector.Error as error:
             state = False
 
@@ -88,6 +88,7 @@ class Link():
             if state == True:
                 return short_url
             else:
+                logging.error("Erorr While Inserting Url")
                 return "Erorr While Inserting Url"
 
     def CheckExsistUrl(self, short_url):
@@ -99,6 +100,7 @@ class Link():
         myRecordset = mycursor.fetchall()
         if mycursor.rowcount == 0:
             mycursor.close()
+            logging.error("no such exissting website")
             return "no such exissting website"
         else:
             original_url = myRecordset[0][0]
@@ -109,7 +111,8 @@ class Link():
 
         vaild = self.isValidURL(original_url)
         if vaild != True:
-            return "The Url Not Valid"
+            logging.error("404 The Url Not Valid")
+            return "404 The Url Not Valid"
         letters = string.ascii_letters
         short_url = str(
             int(hashlib.sha1(original_url.encode("utf-8")).hexdigest(), 16) % (10 ** 6))
@@ -126,10 +129,7 @@ class Link():
         return self.AddShortenedUrl(original_url, temp)
 
     def showUrlsOrderd(self, orderType):
-        """
-            get all api urls orderd
-            """
-        # Var
+        """get all api urls orderd """
         mycursor = self.myCon.cursor()
         mycursor.execute(
             f"SELECT original_url, short_url, RegDate FROM urls ORDER BY RegDate {{orderType}} ")  # ASC or DESC
@@ -138,9 +138,9 @@ class Link():
         return str(myRecordset)
 
     def showUrls(self):
-        """
-            get all api urls as string without any ordering
-            """
+        """ get all api urls as string without any ordering """
+            
+            
         try:
             mycursor = self.myCon.cursor()
             mycursor.execute(
@@ -150,20 +150,18 @@ class Link():
             return str(myRecordset)
 
         except mysql.connector.Error as err:
-
+            logging.error("Something went wrong: {}".format(err))
             print("Something went wrong: {}".format(err))
 
     def showUrlsJson(self):
-        """
-            get all api urls as json file
-            """
+        """ get all api urls as json file """
+            
+            
         mycursor = self.myCon.cursor()
 
         mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
-
         myRecordset = mycursor.fetchall()
         json_data = []
-        # this will extract row headers
         row_headers = [x[0] for x in mycursor.description]
         for r in myRecordset:
             json_data.append(dict(zip(row_headers, r)))
@@ -171,16 +169,16 @@ class Link():
         mycursor.close()
         return json.dumps(json_data)
 
-    def my_decorator(self, func):
+    # def my_decorator(self, func):
 
-        def wrapper():
-            print(" My function name ")
-           # print("Something is happening before the function is called.")
-            result = func()
-            print("Something is happening after the function is called.")
-            return result
+    #     def wrapper():
+    #         print(" My function name ")
+    #        # print("Something is happening before the function is called.")
+    #         result = func()
+    #         print("Something is happening after the function is called.")
+    #         return result
 
-        return wrapper
+    #     return wrapper
 
     #
     # def GetRowsNumber(self):

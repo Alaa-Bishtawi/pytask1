@@ -2,16 +2,26 @@ import datetime
 from urllib import request
 import logging
 from flask import request
+from mysql.connector.errors import Error
 from models import Link
 from flask import Flask
-
+from werkzeug.exceptions import HTTPException
+from flask import json
 logging.basicConfig(filename='server.log',
                     encoding='utf-8', level=logging.DEBUG)
 app = Flask(__name__)
 
 
+@app.errorhandler(Exception)
+def page_not_found(e):
+    return str(e)
+
+
+#@app.errorhandler(HTTPException)
+
+
 def my_decorator(func):
-    print("inside decorater")
+    # print("inside decorater")
 
     def wrapperInner():
 
@@ -31,10 +41,14 @@ def my_decorator(func):
 @app.route('/show_urls', methods=['GET'], endpoint='showUrls')
 @my_decorator
 def showUrls():
-    link = Link()
-    logging.info(' Get Request  /show_urls at  ' +
-                 str(datetime.datetime.now()) + ' And returned All Urls ')
-    return link.showUrls()
+   
+        link = Link()
+        logging.info(' Get Request  /show_urls at  ' +
+                    str(datetime.datetime.now()) + ' And returned All Urls ')
+        return link.showUrls()
+    
+        
+        
 
 
 @app.route('/show_urls_order', methods=['GET'], endpoint='showUrlsOrderd')

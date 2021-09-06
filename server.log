@@ -1,0 +1,397 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:17:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:17:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:27:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:27:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root: Function showUrls Called at 2021-09-05 22:27:21.241331
+INFO:root: Get Request  /show_urls at  2021-09-05 22:27:21.250163 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:27:21] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 22:33:46.245433
+INFO:root: Get Request  /show_urls at  2021-09-05 22:33:46.251317 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:33:46] "GET /show_urls HTTP/1.1" 200 -
+INFO:root: Function short_url Called at 2021-09-05 22:35:08.412402
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:35:08] "[35m[1mPOST /short_url?original_url=https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given HTTP/1.1[0m" 500 -
+INFO:root: Function short_url Called at 2021-09-05 22:37:12.842702
+INFO:root: POST Request  /short_url at  2021-09-05 22:37:12.860087 And returned short url is : http://127.0.0.1:5000/616564btTWGN
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:37:12] "POST /short_url HTTP/1.1" 200 -
+INFO:root: Function showUrls Called at 2021-09-05 22:37:17.132972
+INFO:root: Get Request  /show_urls at  2021-09-05 22:37:17.136556 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:37:17] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:39:53] "[31m[1mPOST /show_urls HTTP/1.1[0m" 405 -
+INFO:root: Function short_url Called at 2021-09-05 22:40:32.888811
+INFO:root: POST Request  /short_url at  2021-09-05 22:40:32.908874 And returned short url is : http://127.0.0.1:5000/616564tFDdSH
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:40:32] "POST /short_url HTTP/1.1" 200 -
+INFO:root: Function showUrls Called at 2021-09-05 22:40:58.567081
+INFO:root: Get Request  /show_urls at  2021-09-05 22:40:58.570162 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:40:58] "GET /show_urls HTTP/1.1" 200 -
+INFO:root: Function showUrls Called at 2021-09-05 22:41:09.658914
+INFO:root: Get Request  /show_urls at  2021-09-05 22:41:09.673850 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 22:41:09] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:10:08.759444
+INFO:root:####################################################
+INFO:root: Get Request  /show_urls at  2021-09-05 23:10:08.771787 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:10:08] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:root: Function showUrls Called at 2021-09-05 23:12:24.950311
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:root: Get Request  /show_urls at  2021-09-05 23:12:24.971462 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:12:25] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:root: Function showUrls Called at 2021-09-05 23:14:02.461852
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:14:02] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:16:47.085803
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:16:47] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:20:24.714152
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:20:24] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:22:29.885316
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:22:29] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:24:02.655606
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:24:02] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:root: Function showUrls Called at 2021-09-05 23:24:05.905454
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:24:05] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:27:38.141036
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:27:38] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:root: Function showUrls Called at 2021-09-05 23:27:54.361789
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:27:54] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:29:11.668886
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:29:11] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root: Function showUrls Called at 2021-09-05 23:31:34.579855
+ERROR:root:Something went wrong: 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2021 23:31:34] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 977-361-120
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
