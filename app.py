@@ -1,12 +1,12 @@
 import datetime
-from urllib import request
 import logging
-from flask import request
-from mysql.connector.errors import Error
-from models import Link
+from urllib import request
+
 from flask import Flask
-from werkzeug.exceptions import HTTPException
-from flask import json
+from flask import request
+
+from models import Link
+
 logging.basicConfig(filename='server.log',
                     encoding='utf-8', level=logging.DEBUG)
 app = Flask(__name__)
@@ -17,22 +17,14 @@ def page_not_found(e):
     return str(e)
 
 
-#@app.errorhandler(HTTPException)
-
-
 def my_decorator(func):
     # print("inside decorater")
 
     def wrapperInner():
-
-        logging.info(' Function ' + func.__name__ +
-                     ' Called at ' + str(datetime.datetime.now()) + '')
-
-        print(func.__name__)
-       # print("Something is happening before the function is called.")
+        logging.info(str(datetime.datetime.now()), +' Function ' + func.__name__ +
+                     ' Called ')
         result = func()
-
-        print("Something is happening after the function is called.")
+        # print("Something is happening after the function is called.")
         return result
 
     return wrapperInner
@@ -41,14 +33,10 @@ def my_decorator(func):
 @app.route('/show_urls', methods=['GET'], endpoint='showUrls')
 @my_decorator
 def showUrls():
-   
-        link = Link()
-        logging.info(' Get Request  /show_urls at  ' +
-                    str(datetime.datetime.now()) + ' And returned All Urls ')
-        return link.showUrls()
-    
-        
-        
+    link = Link()
+    logging.info(' Get Request  /show_urls at  ' +
+                 str(datetime.datetime.now()) + ' And returned All Urls ')
+    return link.showUrls()
 
 
 @app.route('/show_urls_order', methods=['GET'], endpoint='showUrlsOrderd')
@@ -84,18 +72,10 @@ def check_full_url():
     return original_url
 
 
-########################
-
-
 @app.route('/short_url', methods=['POST'], endpoint='short_url')
 @my_decorator
 def short_url():
     original_url = request.form.get('original_url')
-
-    # characters = string.digits + string.ascii_letters
-    # # short_url = ''.join(choices(characters, k=8))
-    # short_url = ''.join(choices(characters, k=8))
-    # print(characters)
     link = Link()
     short_url = link.ShortenUrl(original_url)
     short_url = link.server_url + short_url
@@ -107,13 +87,6 @@ def short_url():
 
 @app.route('/', methods=['GET', 'POST'])
 def hello_world():
-    # link = Link()
-    # url = 'www.facebook.com'
-    # link.ShortenUrl(url)
-    # print('finished adding')
-    # link.showUrls()
-    # print(link.CheckExsistUrl('qZVq'))
-
     return 'Hello World!'
 
 

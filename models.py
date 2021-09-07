@@ -1,20 +1,25 @@
 import hashlib
 import json
+import logging
 import random
 import re
 import string
 from datetime import date
+
 import mysql.connector
+
 import constants
-import logging
+
 logging.basicConfig(filename='server.log',
                     encoding='utf-8', level=logging.DEBUG)
+
+
 class Link():
     server_url = constants.SERVER_URL
 
     def __init__(self):
         try:
-            
+
             self.myCon = mysql.connector.connect(
                 host=constants.DB_HOST,
                 user=constants.DB_USER,
@@ -23,7 +28,6 @@ class Link():
 
         except mysql.connector.Error as err:
             logging.error("Something went wrong: {}".format(err))
-            
 
     def checkDuplicateShorten(self, short_url):
         """   Check database if shorten url exists before  """
@@ -63,8 +67,7 @@ class Link():
 
     def AddShortenedUrl(self, original_url, short_url):
         """ add record to database  """
-                   
-                    
+
         state = False
         try:
             mycursor = self.myCon.cursor()
@@ -79,7 +82,7 @@ class Link():
             self.myCon.commit()
 
             state = True
-            logging.info('Here is inserted quey ' +sql_insert_query)
+            logging.info('Here is inserted quey ' + sql_insert_query)
         except mysql.connector.Error as error:
             state = False
 
@@ -139,8 +142,7 @@ class Link():
 
     def showUrls(self):
         """ get all api urls as string without any ordering """
-            
-            
+
         try:
             mycursor = self.myCon.cursor()
             mycursor.execute(
@@ -155,8 +157,7 @@ class Link():
 
     def showUrlsJson(self):
         """ get all api urls as json file """
-            
-            
+
         mycursor = self.myCon.cursor()
 
         mycursor.execute("SELECT original_url, short_url, RegDate FROM urls ")
@@ -168,51 +169,3 @@ class Link():
 
         mycursor.close()
         return json.dumps(json_data)
-
-    # def my_decorator(self, func):
-
-    #     def wrapper():
-    #         print(" My function name ")
-    #        # print("Something is happening before the function is called.")
-    #         result = func()
-    #         print("Something is happening after the function is called.")
-    #         return result
-
-    #     return wrapper
-
-    #
-    # def GetRowsNumber(self):
-    #     mycursor = self.myCon.cursor()
-    #
-    #     mycursor.execute("SELECT Count(*) FROM urls ")
-    #
-    #     myRecordset = mycursor.fetchall()
-    #     mycursor.close()
-    #     return myRecordset[0][0]
-
-    # Function to validate URL
-    # using regular expression
-    # def ShortenUrl(self, original_url):
-    #     # app.config['SECRET_KEY'] = 'this should be a secret random string'
-    #     #
-    #     # hashids = Hashids(min_length=4, salt=app.config['SECRET_KEY'])
-    #     # hashids = Hashids(min_length=4, salt= 'this should be a secret random string')
-    #     vaild = self.isValidURL(original_url)
-    #     if vaild != True:
-    #         return "The Url Not Valid"
-    #     original_url_id = self.GetRowsNumber() + 1
-    #     url_length = len(original_url)
-    #     url_sum = 0
-    #
-    #     for i in range(url_length):
-    #         url_sum += ord(original_url[i])
-    #     print(url_sum)
-    #
-    #     # print(url_id)
-    #
-    #     hashid = hashids.encode(original_url_id)
-    #     # print(hashid)
-    #     # short_url = "http://127.0.0.1:5000/" + hashid
-    #     short_url = hashid
-    #     return self.AddShortenedUrl(original_url, short_url)
-    #     # print(short_url)

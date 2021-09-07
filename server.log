@@ -395,3 +395,471 @@ INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/ap
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug: * Detected change in '/Users/mr.alaa/Downloads/pytask1/pytask1/app.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 13:29:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 13:29:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 13:29:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 13:29:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root: Function showUrls Called at 2021-09-06 13:30:44.354470
+INFO:root: Get Request  /show_urls at  2021-09-06 13:30:44.359850 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 13:30:44] "GET /show_urls HTTP/1.1" 200 -
+INFO:root: Function showUrls Called at 2021-09-06 13:31:36.724985
+INFO:root: Get Request  /show_urls at  2021-09-06 13:31:36.724985 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 13:31:36] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\constants.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\init_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\testing.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\testing.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\testing.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\testing.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Function showUrls Called at 2021-09-06 14:36:29.053688
+INFO:root: Get Request  /show_urls at  2021-09-06 14:36:29.059672 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2021 14:36:29] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 09:31:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 09:31:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 09:38:32] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 09:41:06] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 09:41:39] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:57:26] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:57:51] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:58:22] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:59:07] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:59:14] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:59:25] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 11:59:53] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Get Request  /show_urls at  2021-09-07 12:02:21.741911 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:02:21] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Get Request  /show_urls at  2021-09-07 12:02:41.259341 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:02:41] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:02:46] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:03:18] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:04:30] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:05:05] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:05:19] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:05:38] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:05:47] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:06:26] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:06:52] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Get Request  /show_urls at  2021-09-07 12:07:28.934939 And returned All Urls 
+INFO:root:Call function showUrls with ()
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:07:28] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Get Request  /show_urls at  2021-09-07 12:08:20.229765 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:08:20] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:09:37] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:10:03] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function {func.__name__} with request.args
+INFO:root: Get Request  /show_urls at  2021-09-07 12:17:50.174238 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:17:50] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:18:22] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function {func.__name__} with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:18:52.905005 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:18:53] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function GET with showUrls
+INFO:root: Get Request  /show_urls at  2021-09-07 12:19:28.976447 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:19:29] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:20:01.030743 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:20:01] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:20:33.677781 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:20:34] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:22:17] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:22:33] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:23:12] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:26:25.706780 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:26:27] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Get Request  /show_urls at  2021-09-07 12:27:04.365717 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:27:04] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:27:35.725020 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:27:35] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:28:19] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root:<function showUrls at 0x000002B2EEF1C040>
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:28:34] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:29:02.441498 And returned All Urls 
+INFO:root:[('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ZFsDsR', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564EJWkrr', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564uIUrrr', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BdaNCP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564DLVvyg', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FiqhYd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564MtVNtQ', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YQihPL', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FvqiGH', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HSZJSi', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564RefcdM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564aHtMtW', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564LPlJUE', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564JhRbOl', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rCvsYv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YNwwIu', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564bWiuut', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rhcSqB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564wZSaRd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564fUovEM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564nZDPQt', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BLGUgq', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564zRjrOe', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BTuvVP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rlmPPk', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ExPLvp', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564NuERMB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BjeKZD', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HdBGjA', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564iXWqak', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KcyxbM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KJGUcv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564CCRRyj', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564PtXmoB', '2021/05/09')]
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:29:02] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:29:07] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:29:08.034105 And returned All Urls 
+INFO:root:[('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ZFsDsR', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564EJWkrr', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564uIUrrr', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BdaNCP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564DLVvyg', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FiqhYd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564MtVNtQ', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YQihPL', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FvqiGH', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HSZJSi', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564RefcdM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564aHtMtW', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564LPlJUE', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564JhRbOl', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rCvsYv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YNwwIu', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564bWiuut', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rhcSqB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564wZSaRd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564fUovEM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564nZDPQt', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BLGUgq', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564zRjrOe', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BTuvVP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rlmPPk', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ExPLvp', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564NuERMB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BjeKZD', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HdBGjA', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564iXWqak', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KcyxbM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KJGUcv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564CCRRyj', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564PtXmoB', '2021/05/09')]
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:29:50.771339 And returned All Urls 
+INFO:root:[('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ZFsDsR', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564EJWkrr', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564uIUrrr', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BdaNCP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564DLVvyg', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FiqhYd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564MtVNtQ', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YQihPL', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FvqiGH', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HSZJSi', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564RefcdM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564aHtMtW', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564LPlJUE', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564JhRbOl', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rCvsYv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YNwwIu', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564bWiuut', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rhcSqB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564wZSaRd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564fUovEM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564nZDPQt', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BLGUgq', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564zRjrOe', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BTuvVP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rlmPPk', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ExPLvp', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564NuERMB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BjeKZD', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HdBGjA', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564iXWqak', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KcyxbM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KJGUcv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564CCRRyj', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564PtXmoB', '2021/05/09')]
+INFO:root: Get Request  /show_urls at  2021-09-07 12:29:50.775328 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:29:51] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:30:19] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:30:20.878607 And returned All Urls 
+INFO:root:[('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ZFsDsR', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564EJWkrr', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564uIUrrr', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BdaNCP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564DLVvyg', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FiqhYd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564MtVNtQ', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YQihPL', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FvqiGH', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HSZJSi', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564RefcdM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564aHtMtW', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564LPlJUE', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564JhRbOl', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rCvsYv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YNwwIu', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564bWiuut', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rhcSqB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564wZSaRd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564fUovEM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564nZDPQt', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BLGUgq', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564zRjrOe', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BTuvVP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rlmPPk', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ExPLvp', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564NuERMB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BjeKZD', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HdBGjA', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564iXWqak', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KcyxbM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KJGUcv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564CCRRyj', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564PtXmoB', '2021/05/09')]
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:31:32] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:31:40] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:31:47.023128 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:32:28.246114 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:32:28] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:32:51.143990 And returned All Urls 
+INFO:root:[('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ZFsDsR', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564EJWkrr', '2021/02/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564uIUrrr', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BdaNCP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564DLVvyg', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FiqhYd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564MtVNtQ', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YQihPL', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564FvqiGH', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HSZJSi', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564RefcdM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564aHtMtW', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564LPlJUE', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564JhRbOl', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rCvsYv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564YNwwIu', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564bWiuut', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rhcSqB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564wZSaRd', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564fUovEM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564nZDPQt', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BLGUgq', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564zRjrOe', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BTuvVP', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564rlmPPk', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564ExPLvp', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564NuERMB', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564BjeKZD', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564HdBGjA', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564iXWqak', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KcyxbM', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564KJGUcv', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564CCRRyj', '2021/05/09'), ('https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given', '616564PtXmoB', '2021/05/09')]
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:32:51] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:33:29.522943 And returned All Urls 
+INFO:root:<class 'str'>
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:33:47] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:35:24.795725 And returned All Urls 
+INFO:root:<class 'str'>
+INFO:root: Get Request  /show_urls at  2021-09-07 12:35:24.799714 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:37:19.539261 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:37:19] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:37:39] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:37:43] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:37:45.301027 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:37:45] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Function showUrls Called at 2021-09-07 12:40:14.803588
+INFO:root: Get Request  /show_urls at  2021-09-07 12:40:14.810565 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:40:14] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root: Function showUrls Called at 2021-09-07 12:42:19.255916
+INFO:root: Get Request  /show_urls at  2021-09-07 12:42:19.264893 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:42:19] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:42:20.346002 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:42:21] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:42:22] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:42:25] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:42:26] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:42:48] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:42:49.065698 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:43:00.970068 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:43:03] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:43:05] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:43:05] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:01] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:44:02.076039 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:03] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:05] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:06] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:07] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:07] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:08] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:12] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:31] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:44:32.428474 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:44:51.995202 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:52] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:52] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:53] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:56] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:44:58] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:02] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:03] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:19] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:45:19.936698 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:20] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:20] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:21] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:29] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:45:30.451568 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:45:30] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Call function showUrls with GET
+INFO:root: Get Request  /show_urls at  2021-09-07 12:47:52.890166 And returned All Urls 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:47:53] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:47:54] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:48:26] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:48:32] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:49:11] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:49:13] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:49:13] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:49:50] "[35m[1mGET /show_urls HTTP/1.1[0m" 500 -
+INFO:root: Function showUrls Called at 2021-09-07 12:49:56.129011
+INFO:root: Get Request  /show_urls at  2021-09-07 12:49:56.133998 And returned All Urls 
+INFO:werkzeug:127.0.0.1 - - [07/Sep/2021 12:49:56] "GET /show_urls HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\testing.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\user\\PycharmProjects\\flaskproject2\\pytask1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
